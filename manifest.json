@@ -20,6 +20,12 @@
       "run_at": "document_start",
       "js": ["content.js"],
       "css": ["custom.css"]
+    },
+    {
+      "matches": ["http://www.facebook.com/", "https://www.facebook.com/"],
+      "run_at": "document_start",
+      "js": ["content.js"],
+      "css": ["facebook.css"]
     }
   ],
   "chrome_url_overrides" : {
